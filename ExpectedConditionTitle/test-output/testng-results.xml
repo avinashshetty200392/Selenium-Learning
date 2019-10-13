@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12126" started-at="2019-10-08T14:02:50Z" finished-at="2019-10-08T14:03:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12126" started-at="2019-10-08T14:02:50Z" finished-at="2019-10-08T14:03:02Z">
+      <class name="ExpectedConditionTitle">
+        <test-method status="PASS" signature="verifyTitleExpectedCondition()[pri:0, instance:ExpectedConditionTitle@4cc0edeb]" name="verifyTitleExpectedCondition" duration-ms="12095" started-at="2019-10-08T14:02:50Z" finished-at="2019-10-08T14:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleExpectedCondition -->
+      </class> <!-- ExpectedConditionTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

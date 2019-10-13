@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20755" started-at="2019-10-12T20:09:54Z" finished-at="2019-10-12T20:10:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20755" started-at="2019-10-12T20:09:54Z" finished-at="2019-10-12T20:10:14Z">
+      <class name="testrunner.MethodCallingTest">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testrunner.MethodCallingTest@69ea3742]" name="launchApplication" duration-ms="11415" started-at="2019-10-12T20:09:54Z" finished-at="2019-10-12T20:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="takescreenshotAfterEachMethod()[pri:0, instance:testrunner.MethodCallingTest@69ea3742]" name="takescreenshotAfterEachMethod" is-config="true" duration-ms="995" started-at="2019-10-12T20:10:05Z" finished-at="2019-10-12T20:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotAfterEachMethod -->
+        <test-method status="PASS" signature="enterbookName()[pri:1, instance:testrunner.MethodCallingTest@69ea3742]" name="enterbookName" duration-ms="118" started-at="2019-10-12T20:10:06Z" finished-at="2019-10-12T20:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterbookName -->
+        <test-method status="PASS" signature="takescreenshotAfterEachMethod()[pri:0, instance:testrunner.MethodCallingTest@69ea3742]" name="takescreenshotAfterEachMethod" is-config="true" duration-ms="644" started-at="2019-10-12T20:10:06Z" finished-at="2019-10-12T20:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotAfterEachMethod -->
+        <test-method status="PASS" signature="clickOnSearchButton()[pri:2, instance:testrunner.MethodCallingTest@69ea3742]" name="clickOnSearchButton" duration-ms="4613" started-at="2019-10-12T20:10:07Z" finished-at="2019-10-12T20:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSearchButton -->
+        <test-method status="PASS" signature="takescreenshotAfterEachMethod()[pri:0, instance:testrunner.MethodCallingTest@69ea3742]" name="takescreenshotAfterEachMethod" is-config="true" duration-ms="409" started-at="2019-10-12T20:10:11Z" finished-at="2019-10-12T20:10:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotAfterEachMethod -->
+        <test-method status="PASS" signature="selectBookFromTheList()[pri:3, instance:testrunner.MethodCallingTest@69ea3742]" name="selectBookFromTheList" duration-ms="1355" started-at="2019-10-12T20:10:12Z" finished-at="2019-10-12T20:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBookFromTheList -->
+        <test-method status="PASS" signature="takescreenshotAfterEachMethod()[pri:0, instance:testrunner.MethodCallingTest@69ea3742]" name="takescreenshotAfterEachMethod" is-config="true" duration-ms="536" started-at="2019-10-12T20:10:13Z" finished-at="2019-10-12T20:10:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotAfterEachMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testrunner.MethodCallingTest@69ea3742]" name="tearDown" is-config="true" duration-ms="641" started-at="2019-10-12T20:10:14Z" finished-at="2019-10-12T20:10:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testrunner.MethodCallingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

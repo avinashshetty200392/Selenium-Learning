@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import scripts.LoginPage;
@@ -13,7 +14,7 @@ public class MethodCallingTest {
 	private WebDriver driver;
 	LoginPage lp;
 
-	@Test
+	@BeforeTest
 	public void launchApplication() {
 		Common d = Common.getInitializeDriver();
 		driver = Common.getDriver();

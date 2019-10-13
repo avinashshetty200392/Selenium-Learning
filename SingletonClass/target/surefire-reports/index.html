@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,11 +108,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-testrunner.MethodCallingTest" title="testrunner.MethodCallingTest" hash-for-method="enterbookName">enterbookName</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testrunner.MethodCallingTest" title="testrunner.MethodCallingTest" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -150,13 +145,6 @@
                   <a name="enterbookName">
                   </a> <!-- enterbookName -->
                   <span class="method-name">enterbookName</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="launchApplication">
-                  </a> <!-- launchApplication -->
-                  <span class="method-name">launchApplication</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -219,28 +207,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'launchApplication')
+data.setCell(0, 1, 'clickOnSearchButton')
 data.setCell(0, 2, 'testrunner.MethodCallingTest')
-data.setCell(0, 3, 11589);
+data.setCell(0, 3, 4752);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clickOnSearchButton')
+data.setCell(1, 1, 'selectBookFromTheList')
 data.setCell(1, 2, 'testrunner.MethodCallingTest')
-data.setCell(1, 3, 4533);
+data.setCell(1, 3, 3352);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'selectBookFromTheList')
+data.setCell(2, 1, 'enterbookName')
 data.setCell(2, 2, 'testrunner.MethodCallingTest')
-data.setCell(2, 3, 1661);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'enterbookName')
-data.setCell(3, 2, 'testrunner.MethodCallingTest')
-data.setCell(3, 3, 211);
+data.setCell(2, 3, 496);
 window.suiteTableData['testrunner.MethodCallingTest']= { tableData: data, tableDiv: 'times-div-testrunner.MethodCallingTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-testrunner.MethodCallingTest">
               </div> <!-- times-div-testrunner.MethodCallingTest -->
             </div> <!-- times-div -->
@@ -267,25 +251,37 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">testrunner.MethodCallingTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
+              <div class="configuration-test before">
                 <span class="method-name">launchApplication</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">enterbookName</span>
-                <span class="method-start">11591 ms</span>
+                <span class="method-start">16063 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takescreenshotAfterEachMethod</span>
+                <span class="method-start">16560 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">clickOnSearchButton</span>
-                <span class="method-start">11803 ms</span>
+                <span class="method-start">17926 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takescreenshotAfterEachMethod</span>
+                <span class="method-start">22679 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">selectBookFromTheList</span>
-                <span class="method-start">16337 ms</span>
+                <span class="method-start">23281 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takescreenshotAfterEachMethod</span>
+                <span class="method-start">26634 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17998 ms</span>
+                <span class="method-start">27442 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

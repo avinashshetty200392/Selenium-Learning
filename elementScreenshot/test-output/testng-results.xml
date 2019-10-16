@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36055" started-at="2019-10-16T18:41:36Z" finished-at="2019-10-16T18:42:12Z">
+  <suite name="Default suite" duration-ms="52803" started-at="2019-10-16T18:57:59Z" finished-at="2019-10-16T18:58:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36055" started-at="2019-10-16T18:41:36Z" finished-at="2019-10-16T18:42:12Z">
+    <test name="Default test" duration-ms="52803" started-at="2019-10-16T18:57:59Z" finished-at="2019-10-16T18:58:52Z">
       <class name="screenshot.ElementScreenshot">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:screenshot.ElementScreenshot@224edc67]" name="initializeBrowser" duration-ms="23324" started-at="2019-10-16T18:41:36Z" finished-at="2019-10-16T18:41:59Z">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:screenshot.ElementScreenshot@2e4b8173]" name="initializeBrowser" duration-ms="15818" started-at="2019-10-16T18:57:59Z" finished-at="2019-10-16T18:58:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="clickOnLoginButton()[pri:1, instance:screenshot.ElementScreenshot@224edc67]" name="clickOnLoginButton" duration-ms="3041" started-at="2019-10-16T18:41:59Z" finished-at="2019-10-16T18:42:02Z">
+        <test-method status="PASS" signature="clickOnLoginButton()[pri:1, instance:screenshot.ElementScreenshot@2e4b8173]" name="clickOnLoginButton" duration-ms="32432" started-at="2019-10-16T18:58:15Z" finished-at="2019-10-16T18:58:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnLoginButton -->
-        <test-method status="PASS" signature="enterUsername()[pri:2, instance:screenshot.ElementScreenshot@224edc67]" name="enterUsername" duration-ms="9634" started-at="2019-10-16T18:42:02Z" finished-at="2019-10-16T18:42:12Z">
+        <test-method status="PASS" signature="enterUsername()[pri:2, instance:screenshot.ElementScreenshot@2e4b8173]" name="enterUsername" duration-ms="4521" started-at="2019-10-16T18:58:47Z" finished-at="2019-10-16T18:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterUsername -->

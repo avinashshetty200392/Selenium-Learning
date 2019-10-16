@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="screenshot.TakeElementScreenshot">
+      <class name="screenshot.ElementScreenshot">
         <methods>
           <include name="clickOnLoginButton"/>
         </methods>
-      </class> <!-- screenshot.TakeElementScreenshot -->
+      </class> <!-- screenshot.ElementScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

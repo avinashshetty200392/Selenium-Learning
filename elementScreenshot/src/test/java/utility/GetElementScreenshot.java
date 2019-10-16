@@ -12,7 +12,10 @@ public class GetElementScreenshot{
 	{
 		
 	File src = ele.getScreenshotAs(OutputType.FILE);
-	FileUtils.copyFile(src, new File("D:\\Workspace\\GitlatestProgramsPractice\\elementScreenshot\\Screenshots\\"+methodname+".png"));
+	String path = System.getProperty("user.dir");
+	String des= path+"\\Screenshots\\"+methodname+".png";
+	System.out.println(des);
+	FileUtils.copyFile(src, new File(des));
 	}
 
 }

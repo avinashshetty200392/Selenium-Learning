@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52707" started-at="2019-10-19T16:56:47Z" finished-at="2019-10-19T16:57:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52707" started-at="2019-10-19T16:56:47Z" finished-at="2019-10-19T16:57:39Z">
+      <class name="newwindowstabs.NewWindowsTabs">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:newwindowstabs.NewWindowsTabs@6adede5]" name="initializeBrowser" is-config="true" duration-ms="19921" started-at="2019-10-19T16:56:47Z" finished-at="2019-10-19T16:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="openNewTab()[pri:0, instance:newwindowstabs.NewWindowsTabs@6adede5]" name="openNewTab" duration-ms="8422" started-at="2019-10-19T16:57:06Z" finished-at="2019-10-19T16:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNewTab -->
+        <test-method status="PASS" signature="openNewWindow()[pri:0, instance:newwindowstabs.NewWindowsTabs@6adede5]" name="openNewWindow" duration-ms="4747" started-at="2019-10-19T16:57:15Z" finished-at="2019-10-19T16:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNewWindow -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:newwindowstabs.NewWindowsTabs@6adede5]" name="tearDown" is-config="true" duration-ms="19589" started-at="2019-10-19T16:57:20Z" finished-at="2019-10-19T16:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- newwindowstabs.NewWindowsTabs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
